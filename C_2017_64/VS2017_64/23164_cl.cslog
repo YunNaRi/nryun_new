@@ -1,0 +1,8 @@
+[COVER] OutputOptions: FILE
+[COVER] Port: 9093
+[COVER] Connection Interval: 1000
+[COVER] Dump Directory: C:\QualityScroll-Cover-EE\cover-agent\coverage
+[COVER] Dump Interval: 5000
+[COVER] Log Option: FILE
+[COVER] Log Directory: 
+[COVER] DumpAll

@@ -1,0 +1,10 @@
+﻿  bit_check.c
+  [COVER] Creating translation hash...
+  [COVER] Analyzing source files...
+  [COVER] Compiling probed source files...
+  38e6beb5-0890-4dfc-8112-6defbd43653d.c
+c:\users\nryun\downloads\cover(se)\sample\c_2017_64\vs2017_64\bit_check.c(7): warning C4477: 'printf' : 서식 문자열 '%2d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  c:\users\nryun\downloads\cover(se)\sample\c_2017_64\vs2017_64\bit_check.c(7): note: 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  cvgc_D01A16B6.cpp
+  libcstm_D01A16B6.c
+  VS2017_64.vcxproj -> C:\Users\nryun\Downloads\COVER(SE)\sample\C_2017_64\x64\Debug\VS2017_64.exe
