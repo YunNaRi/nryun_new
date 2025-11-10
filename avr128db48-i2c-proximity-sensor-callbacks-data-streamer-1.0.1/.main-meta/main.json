@@ -1,0 +1,69 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.avr128db48-i2c-proximity-sensor-callbacks-data-streamer",
+        "version": "1.0.1",
+        "displayName": "avr128db48-i2c-proximity-sensor-callbacks-data-streamer",
+        "projectName": "avr128db48-i2c-proximity-sensor-callbacks-data-streamer",
+        "shortDescription": "Reads proximity sensor value. With Data Streamer output, sends values to MPLAB Data Visualizer via protocol every 100 ms. Uses Timer driver callbacks for sampling frequency.",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=6.25.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^3.0.0"
+            }
+        ],
+        "dfp": {
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^2.7.321"
+        },
+        "configurator": {
+            "name": "MCC",
+            "semverRange": "^5.6.2"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "AVR128DB48",
+                "versionRange": "*"
+            }
+        },
+        "author": "Glen Nilsen",
+        "peripherals": [
+            "I2C",
+            "GPIO",
+            "UART"
+        ],
+        "keywords": [
+            "Data Visualizer",
+            "MPLAB Data Visualizer",
+            "I2C",
+            "UART",
+            "Getting Started",
+            "Melody",
+            "MCC Melody",
+            "Curiosity Nano Explorer",
+            "Example Components",
+            "MCC Melody Example Components"
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
